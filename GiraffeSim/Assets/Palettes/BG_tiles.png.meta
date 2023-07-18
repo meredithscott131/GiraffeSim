@@ -1,0 +1,831 @@
+fileFormatVersion: 2
+guid: 78e31f896d2c9cb438746bc773ee4332
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grass
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724665edacc96f443b14969ea088fd45
+      internalID: -1488934276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 151
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856f7aec33d162469607a6c18bbbb4a
+      internalID: -1363578366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_left grass
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef0089e6e686074e9af8d2e7e93af5f
+      internalID: 858895173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_center grass
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393dfca5c0250e049a9c1a45cce994c0
+      internalID: -1951997358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556afc7f934a7c54d9918b00c2d7dcc9
+      internalID: -1128608259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_right grass
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d04a3ef1c0c53c42b6537cfb3c08117
+      internalID: -114261354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: front barrier
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 24}
+        - {x: -8, y: -23}
+        - {x: 8, y: -23}
+        - {x: 8, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ebfe914df35664791ce87add805d19
+      internalID: -1209782130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feed
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 24
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4896411, y: 0.014420803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.0573425, y: -27.798557}
+        - {x: -2.8197632, y: -22.809118}
+        - {x: 1.6945038, y: -23.046711}
+        - {x: 1.6945038, y: -27.798557}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a51dd6119d9b24bada16b2e1ae4bbc
+      internalID: -1204571113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 22.5, y: -24.5}
+        - {x: -23.5, y: -24.5}
+        - {x: -23.5, y: -0.5}
+        - {x: 16.5, y: -0.5}
+        - {x: 16.5, y: -10.5}
+        - {x: 22.5, y: -12.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67af4d4be21ba34299a2f6063082337
+      internalID: 1313020158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -48, y: -26.5}
+        - {x: -48, y: -0.5}
+        - {x: 48, y: 0.5}
+        - {x: 48, y: -25.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7909cd672b1189e4cb20bfdecdb2b65b
+      internalID: -982932487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock4
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -48, y: -30.5}
+        - {x: -48, y: -3.5}
+        - {x: 48, y: -3.5}
+        - {x: 48, y: -30.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556d1c13e24d897408712ccb9a354c18
+      internalID: -249465730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: center_left grass
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eaa9b6b76f2d04aab03618d0cc90a9
+      internalID: -429767127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: center_right grass
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 18
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158572e5ed25624693936603b4def93
+      internalID: -1985026291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock fence
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -4.5}
+        - {x: -8, y: -14.5}
+        - {x: 8, y: -14.5}
+        - {x: 8, y: -4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef3b1f6a70a7774d9f4e6508d6cd5cf
+      internalID: 303651315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11.524818, y: -9.982569}
+        - {x: -16, y: -9.893869}
+        - {x: -16, y: -14.5}
+        - {x: 16, y: -14.5}
+        - {x: 15.762405, y: -9.844238}
+        - {x: 13.524811, y: -9.744978}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c549f13ad3d5d048851080a51f9f93b
+      internalID: 277862676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence edge
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.52479553, y: -8.557014}
+        - {x: -3, y: -8.418684}
+        - {x: -3, y: -14.5}
+        - {x: 3, y: -14.5}
+        - {x: 3, y: -8.418684}
+        - {x: 1.4751892, y: -8.319424}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a0dc8643085c147af7261ad42d3511
+      internalID: -1925759852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottom_left grass
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c676490a4c0a45f42a00d7df9dd6f33f
+      internalID: -1935678613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottom_center grass
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cb54908f02122428c5166c005a054b
+      internalID: 526986434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottom_right grass
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0614899a364ff5948b8d3803344161e1
+      internalID: -1040761136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left barrier shaded
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 64
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -8}
+        - {x: 8, y: 8}
+        - {x: 6, y: 8}
+        - {x: 6, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66bd4e16c9a64c429089c02e1150ea8
+      internalID: -1671362935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right barrier shaded
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 88
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: 8, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a495a13bc7ff947a286e052cc0f80f
+      internalID: 2140362622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left barrier
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 87
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: 8, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24913500bff7b1f4da90bc77b9df58ed
+      internalID: 1171675547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right barrier
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac65036b125b43743aba3ab418117802
+      internalID: -340009387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 22
+        height: 25
+      alignment: 9
+      pivot: {x: 0.531379, y: 0.13550201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -6.5}
+        - {x: -7, y: -8.5}
+        - {x: -7, y: -9.5}
+        - {x: -6, y: -10.5}
+        - {x: 5, y: -10.5}
+        - {x: 8, y: -10.5}
+        - {x: 9, y: -9.5}
+        - {x: 9, y: -6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215aa8aab93b3a648b87bb0ec977c207
+      internalID: 2080761821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: single rock
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda219801c8409748ab841fe4238504b
+      internalID: -1480731470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double rock
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0600fb84e371ec488a8fbe23dec76e2
+      internalID: -122509122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: palm tree
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 3
+        width: 57
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7.5, y: -53.5}
+        - {x: 8.5, y: -47.5}
+        - {x: 8.5, y: -41.5}
+        - {x: -5.5, y: -41.5}
+        - {x: -5.5, y: -53.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9754d5124ecbd4aa233cda163ab0fd
+      internalID: -1830098265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reg tree
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 3
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -23.5}
+        - {x: -17, y: -28.5}
+        - {x: -16, y: -33.5}
+        - {x: -10, y: -32.5}
+        - {x: -9, y: -38.5}
+        - {x: 14, y: -39.5}
+        - {x: 15, y: -31.5}
+        - {x: 8, y: -24.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01797225ffa4a944094a1c87aefb0def
+      internalID: -117618499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bottom_center grass: 526986434
+      bottom_left grass: -1935678613
+      bottom_right grass: -1040761136
+      bush: 2080761821
+      center_left grass: -429767127
+      center_right grass: -1985026291
+      double rock: -122509122
+      feed: -1204571113
+      fence: 277862676
+      fence edge: -1925759852
+      front barrier: -1209782130
+      grass: -1488934276
+      left barrier: 1171675547
+      left barrier shaded: -1671362935
+      palm tree: -1830098265
+      reg tree: -117618499
+      right barrier: -340009387
+      right barrier shaded: 2140362622
+      rock fence: 303651315
+      rock1: -1363578366
+      rock2: 1313020158
+      rock3: -982932487
+      rock4: -249465730
+      sand: -1128608259
+      single rock: -1480731470
+      top_center grass: -1951997358
+      top_left grass: 858895173
+      top_right grass: -114261354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
